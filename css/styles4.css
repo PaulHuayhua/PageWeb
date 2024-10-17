@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a38;
+}
+
+.header {
+    background: linear-gradient(
+          180deg,
+        rgba(43,42,48,0.5) 0%,
+        rgba(44,43,49,0.7) 50%,
+        rgba(45,44,50,1) 100%),
+        url(https://enraizaderechos.org/wp-content/uploads/2023/02/ODS-2-hambre-cero-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu {
+    position: fixed;
+    top: -2px;
+    left: 0;
+    right: 0;
+    background: rgba(43, 42, 48, 0);
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.menu.scrolled {
+    background-color: #13132c;
+}
+
+.logo {
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    position: relative;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+    list-style-type: none;
+
+}
+
+.menu .navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #EEEFF3;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover {
+    color: #E03C40;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    width: 70%;
+}
+
+.header-txt h1 {
+    margin-top: -50px;
+    font-size: 85px;
+    color: #cbcbd6;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header-txt p {
+    font-size: 20px;
+    color: #DADADA;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    font-size: 2.5rem; 
+    color: #ffffff; /* Color blanco para un buen contraste sobre fondos oscuros o coloridos */
+    text-align: center;
+    margin: 20px 15px; /* Espaciado vertical y horizontal para separar del contenido circundante */
+    padding: 10px; /* Espaciado interno para mejorar el diseño del título */
+    font-family: 'Roboto', sans-serif; /* Tipografía moderna y legible */
+}
+
+.container-graphic {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+.chart {
+    padding: 2rem;
+    border:1px solid rgba(31, 28, 28, 0.466);
+    border-radius: 15px;
+    background: rgba(26, 25, 25, 0.411);
+    box-shadow: 0 0 16px rgb(0, 0, 0, 0.8);
+}
+
+
+.indicator-text {
+    height: 324px;
+    padding: 20px;
+    background: rgba(26, 25, 25, 0.411);
+    border:1px solid rgba(31, 28, 28, 0.466);
+    box-shadow: 0 0 16px rgb(0, 0, 0, 0.8);
+    border-radius:15px; 
+}
+
+.indicator-text h2{
+    color: rgb(255, 255, 255);
+}
+.indicator-text p{
+    color: rgb(255, 255, 255);
+}
