@@ -20,13 +20,13 @@ El sistema de **Gestión de Consultas en Línea** busca centralizar el manejo de
 - **Análisis estratégico:** Generación de informes sobre las consultas atendidas, el tiempo de respuesta, y la eficiencia del equipo.
 
 #### Diseño Fisico - Consultas
-![Diagrama de Flujo Consultas](../image/DL_Consultas.png)
+![Diagrama de Flujo Consultas](../image/DF_Consultas.png)
 
 #### Diseño Lógico - Consultas
-![Diagrama Lógico Consultas](./gestion_de_consultas/image/DL_Consultas.png)
+![Diagrama Lógico Consultas](../image/DL_Consultas.png)
 
 ### Diccionario de Datos
 
 Puedes consultar el diccionario de datos completo en el siguiente enlace: 
 
-[Diccionario de Datos - Consultas](./gestion_de_consultas/resources/df_consultas.pdf)
+[Diccionario de Datos - Consultas](../resources/df_consultas.pdf)
